@@ -64,7 +64,6 @@
             @Html.DisplayNameFor(model => model.Car.Photo)
         </dt>
         <dd class="col-sm-10">
-            @*@Html.DisplayFor(model => model.Car.Photo)*@
             <td><img src="data:image/jpeg;base64,@Convert.ToBase64String(@Model.Car.Photo)" /></td>
         </dd>
     </dl>

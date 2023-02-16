@@ -1,6 +1,4 @@
-﻿using System.ComponentModel.DataAnnotations;
-
-namespace CarModelInAspNetCoreWebAppWithEntityFrameWorkTest.Models;
+﻿namespace CarModelInAspNetCoreWebAppWithEntityFrameWorkTest.Models;
 
 public class Car
 {
@@ -14,14 +12,4 @@ public class Car
     public DateTime DateOfCreating { get; set; }
     public bool Availability { get; set; }
     public byte[]? Photo { get; set; }
-
-   // public IFormFile Photo { get; set; }
-
-    // [Required]
-    //[Display(Name = "Photo")]
-    // public IFormFile Photo { get; set; }
-
-
-    //[DataType(DataType.Date)]
-    //public DateTime ReleaseDate { get; set; }
 }
